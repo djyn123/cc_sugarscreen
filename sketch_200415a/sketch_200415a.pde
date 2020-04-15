@@ -1,4 +1,5 @@
 int y = 1;
+
 void  setup()
 {
     size(600,600);
@@ -10,7 +11,9 @@ void  setup()
 
 void draw()
 {
+   background(100);
    fill(0,0,255);
-   ellipse(width/2,height/2, y, y);
-   y+=1;
+   ellipse(width/2,y, 50, 50);
+   y+=2;
+   
 }
